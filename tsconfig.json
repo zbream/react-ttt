@@ -1,0 +1,24 @@
+{
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "jsx": "react",
+        "removeComments": true,
+        
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+
+        "outDir": "out",
+
+        "exclude": [
+            "node_modules"
+        ]
+    },
+
+    "awesomeTypescriptLoaderOptions": {
+        "forkChecker": true
+    }
+}
